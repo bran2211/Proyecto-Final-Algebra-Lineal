@@ -1,4 +1,5 @@
 //Proyecto 3: Programa para calcular SUMA Y RESTA DE MATRICES
+//HOLA
 using namespace std;
 #include<iostream>
 #include<locale.h>
@@ -37,7 +38,7 @@ int main()
 	{
 		case '+':
 		system("cls");
-		cout<<"\n \t La opción que selecciono es suma de matrices"<<endl
+		cout<<"\n \t La opciÃ³n que selecciono es suma de matrices"<<endl
 			<<"\n \t Ingrese los datos de la Matriz A: "<<endl<<endl;
 		
 		for(int i=0; i<=(FilasA-1); i++)
@@ -100,7 +101,7 @@ int main()
 		case '-':
 			
 		system("cls");
-		cout<<"\n \t La opción que selecciono es resta de matrices"<<endl;
+		cout<<"\n \t La opciÃ³n que selecciono es resta de matrices"<<endl;
 		cout<<"\n \t Ingrese los datos de la Matriz A: "<<endl<<endl;
 		for(int i=0; i<=(FilasA-1); i++)
 		{
@@ -161,7 +162,7 @@ int main()
 			<<"\t En espera de su respuesta... ";cin>>opc2;cout<<endl; system("cls");
 		break;
 		default:
-			cout<<"\n \t \t La opción no es valida, intente de nuevo."<<endl;
+			cout<<"\n \t \t La opciÃ³n no es valida, intente de nuevo."<<endl;
 			system("pause");
 			system("cls");
 	
